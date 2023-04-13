@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+* {
+  font-family: Roboto;
+}
+
+.rowheight{
+   height: 55vh;
+
+}
+
+.texte{
+    left: 480px; 
+    top: -180px;
+    text-align: left;
+    color: white;
+    font: "Roboto";
+    font-weight: "bold";
+    display: grid;
+    padding: 0px 0px;
+  }
+ .textbox{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    color:#A13D77;
+    font:"Roboto";
+    font-weight: 600;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    padding: 50px 80px;
+    margin-top: 20px;
+    margin-left: 60px;
+ } 

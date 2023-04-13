@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+.input1 ,.input2 ,.input3, .input4{
+  padding-right: 7px;
+  box-shadow: 3px 3px 5px grey;
+  font-size: 16px;
+  font-weight: 500;
+  width: 300px;
+  height:43px;
+  padding-left:30px;
+  border-color:rgba(139, 35, 108, 0.84) ;
+
+}
+.icon1{
+  position: absolute;
+  color:rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84);
+  left:15px;
+  
+  top:0;
+  height:100%;
+  display:flex;
+  
+  font-size: 23px;
+  margin-left:518px;
+  margin-top: 440px;
+ 
+}
+.icon2{
+  position: absolute;
+  top:0;
+  left:15px;
+  display: flex;
+  height:100%;
+  font-size: 23px;
+  margin-left:517px;
+  margin-top: 495px;
+  
+}
+.icon3{
+  position: absolute;
+  top:0;
+  left:15px;
+  display: flex;
+  height:100%;
+  font-size: 23px;
+  margin-left:517px;
+  margin-top: 555px;
+  
+}
+.icon4{
+  position: absolute;
+  color:rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84);
+  left:15px;
+  
+  top:0;
+  height:100%;
+  display:flex;
+  
+  font-size: 23px;
+  margin-left:518px;
+  margin-top: 380px;
+ 
+}
+.icon-5{
+  position: absolute;
+  color:rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84);
+  left:15px;
+  
+  top:0;
+  height:100%;
+  display:flex;
+  
+  font-size: 23px;
+  margin-left:518px;
+  margin-top: 420px;
+ 
+}
+.icon-6{
+  position: absolute;
+  color:rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84);
+  left:15px;
+  
+  top:0;
+  height:100%;
+  display:flex;
+  
+  font-size: 23px;
+  margin-left:518px;
+  margin-top: 478px;
+ 
+}
+.over1 input[type=text]{
+  padding-left: 30px;
+}
+.over2 input[type=text]{
+  padding-left: 30px;
+}
+.over3 input[type=text]{
+  padding-left: 30px;
+}
+.over4 input[type=text]{
+  padding-left: 30px;
+}
+.over5 input[type=text]{
+  padding-left: 28px;
+}
+.over6 input[type=text]{
+  padding-left: 30px;
+}
+
+.ptag{
+  text-indent:auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height:50px;
+
+
+}
+.form {
+  width: 100%;
+  height: 170vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#rowcontainer div {
+  /*display: block;*/
+  float: left;
+  margin-bottom: 50px;
+  margin-right: 70px;
+  font-size: 15px;
+}
+#Checkbox1{
+  width:25px;
+  float:left;
+  height:20px;
+  background-color:rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84)  ;
+
+}
+.form-container {
+  width: 400px;
+  height: 490x;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84) 50%;
+  display: flex;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+}
+.form-container1 {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84) 50%;
+  display: flex;
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+  flex-direction: column;
+}
+.form-container .header {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.form-container .body {
+  flex: 50%;
+  height:100%;
+}
+.form-container1 .body {
+  flex: 50%;
+  height:100%;
+}
+.form-container .footer {
+  flex: 30%;
+  
+}
+.form-container1 .footer {
+  flex: 30%;
+  
+}
+
+.form-container .footer .logbutton {
+ 
+  
+  background-image: linear-gradient(rgba(194, 48, 138, 0.84), rgba(139, 35, 108, 0.84) 50%);
+  font-weight: bold;
+  color:white;
+  display: "flex";
+ justify-content: "center";
+          align-items: "center";
+          font-size: medium;
+          height: 38px;
+          width:270px;
+          
+          border-color:rgba(179, 56, 131, 0.84) ;
+}
+.form-container1 .footer .logbutton {
+ 
+  background-image: linear-gradient(rgba(194, 48, 138, 0.84), rgba(139, 35, 108, 0.84) 50%);
+  font-weight: bold;
+  color:white;
+  display: "flex";
+ justify-content: "center";
+          align-items: "center";
+          font-size: medium;
+          height: 38px;
+          width:270px;
+          border-color:rgba(179, 56, 131, 0.84) ;
+}
+.image{
+  width:135px;
+  height:'70vh';
+  font-size:'20px';
+  background-size:'no cover';
+  background-repeat:'no repeat';
+}
+
+.sign-up-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+   height: 40px;
+  justify-content:center;
+  display:flex;
+  font-size:30px;
+  background-color:rgba(136, 16, 90, 0.84);
+  
+}
+.column1{
+  float: left;
+   height: 40px;
+  justify-content:center;
+  display:flex;
+  font-size:30px;
+  background-color:rgba(136, 16, 90, 0.84);
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width:100px;
+  
+}
+
+#but1:active{
+  background-color: white;
+}
+#but2:active{
+  background-color: white;
+}
+#but2{
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84) 50%);
+  border-top-right-radius: 80px;
+    
+  border-width: 0;
+  box-shadow: rgb(57 31 91 / 24%) 0 2px 2px, rgb(179 132 201 / 40%) 0 8px 12px;
+  color:white;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgb(255 255 255 / 40%) 0 0 4px, rgb(255 255 255 / 20%) 0 0 12px, rgb(57 31 91 / 60%) 1px 1px 4px, rgb(57 31 91 / 32%) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+ width:200px;
+ margin-bottom: 40px;
+ height:30px;
+ 
+}
+#but1{
+
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 56, 131, 0.84), rgba(139, 35, 108, 0.84) 50%);
+  border-top-right-radius: 80px;
+  
+  border-width: 0;
+  box-shadow: rgb(57 31 91 / 24%) 0 2px 2px, rgb(179 132 201 / 40%) 0 8px 12px;
+  color:white;
+  cursor: pointer;
+  display: flex;
+  font-family: Quicksand,sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgb(255 255 255 / 40%) 0 0 4px, rgb(255 255 255 / 20%) 0 0 12px, rgb(57 31 91 / 60%) 1px 1px 4px, rgb(57 31 91 / 32%) 4px 4px 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+ width:200px;
+ margin-bottom: 40px;
+ height:30px;
+   
+}
+
+
